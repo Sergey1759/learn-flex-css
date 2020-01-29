@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #dcdcdc;
+    color: #777777;
+}
+.logo , .feedback{
+   margin-left: 10%;
+   margin-right: 10%;
+}
+header .logo img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.text{
+    float: left;
+    margin-left: 10px;
+}
+.telephone{
+    font-size: 20px;
+    margin: 2px;
+}
+#feedback{
+    display: inline;
+    float: right;
+    border-bottom: 1px dashed #777777;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #767676;
+    height: 45px;
+    color: #ffffff;
+    font-size: 18px;
+    clear: both;
+}
+nav div{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 2px solid #ffffff;
+    line-height: 22px;
+    vertical-align: middle;
+}
+nav div:last-child{
+    border-right: 2px solid #471b1b00;
+}
+nav div span:hover{
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+}
+.slider{
+    height: auto;
+}
+main{
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+    color: #767676;
+}
+.left{
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left div{
+    margin-top: 10px;
+}
+.sub-nav > ul > li{
+    margin: 0;
+    list-style: none;
+}
+.sub-nav > ul{
+    padding: 0;
+}
+.sub-nav > ul > li > ul > li{
+    list-style: disc;
+    font-size: 14px;
+}
+.exel img{
+    width: 97px;
+    height: 97px;
+    margin: auto;
+}
+.right{
+    box-sizing: border-box;
+    float: right;
+    width: 80%;
+   
+}
+.conteiner_card{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.my_card{
+    width: 250px;
+    padding: 10px;
+    margin: 30px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative;
+    background-color: #dcdcdc;
+}
+.my_card > img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+.description{
+    width: 200px;
+    margin: auto;
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+.price{
+    display: inline;
+    position: absolute;
+    left: 30px;
+    bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.basket{
+    display: inline;
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+}
+.pagination{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.pagination div{
+    margin: 10px;
+}
+.pagination .active{
+    font-size: 22px;
+}
+hr{
+    border: 1px solid  #767676;
+}
+.text_conteiner{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 18px;
+}
+.text_area{
+    text-align: justify;
+    box-sizing: border-box;
+    width: 50%;
+}
+.text_area:last-child{
+    margin-left: 30px;
+}
+footer{
+    clear: both;
+    background-color: #767676;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    align-items: flex-start;
+}
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+}
+.footer_nav div{
+    display: inline-block;
+    margin: 5px;
+    border-bottom: 1px solid white;
+}
+.footer_nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.third{
+    display: flex;
+    align-items: center;
+}
+
